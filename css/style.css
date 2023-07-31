@@ -161,7 +161,9 @@ header.shadow {
   gap: 1rem;
   margin-top: 2rem;
 }
- 
+
+
+
 .about-img img {
   width: 80%;
   border-radius: 0.5rem;
@@ -211,6 +213,11 @@ header.shadow {
   font-weight: 400;
   margin-left: 1rem;
 }
+
+.skills {
+  margin-top: 100px;
+}
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -265,6 +272,11 @@ span {
 .react-bar {
   width: 80%;
 }
+
+.services {
+  margin-top: 100px;
+}
+
 .services-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -311,6 +323,11 @@ span {
 .services-box:hover a{
   color: #8b8a8f;
 }
+
+.portfolio {
+  margin-top: 180px;
+}
+
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
@@ -342,6 +359,11 @@ span {
   transform: scale(1.1);
   transition: 1s;
 }
+
+.contact {
+  margin-top: 200px;
+}
+
 .contact-form {
   display: grid;
   place-items: center;
@@ -490,6 +512,7 @@ form textarea {
     margin-right: 30px;
     order: initial;
   }
+
   .about-container {
     grid-template-columns: 1fr;
   }
